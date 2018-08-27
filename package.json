@@ -1,0 +1,26 @@
+{
+  "name": "fd-styleguide",
+  "version": "1.0.0",
+  "description": "A styleguide and tools to enforce it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funkedigital/fd-styleguide.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "styleguide",
+    "funke",
+    "digital"
+  ],
+  "author": "Gregor Sondermeier <gregor.sondermeier.github@googlemail.com> (https://github.com/GregorSondermeier/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funkedigital/fd-styleguide/issues"
+  },
+  "homepage": "https://github.com/funkedigital/fd-styleguide#readme"
+}
