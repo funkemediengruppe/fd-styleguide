@@ -1,0 +1,29 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "JQuery": false,
+    "$": false
+  },
+  "rules": {
+    "no-console": "off",
+    "func-names": "off",
+    "no-new": "off",
+    "no-unused-vars": "off",
+    "max-len": "off",
+    "quote-props": [1, "consistent-as-needed"],
+    "no-cond-assign": [2, "except-parens"],
+    "radix": 0,
+    "space-infix-ops": 0,
+    "default-case": 0,
+    "no-param-reassign": 0,
+    "no-plusplus": 0,
+    "one-var": 0,
+    "no-undef": 0,
+    "no-restricted-globals": 0,
+    "indent": ["error", 4],
+    "no-mixed-operators": 0,
+    "space-before-function-paren": 0,
+    "brace-style": ["error", "1tbs"],
+    "import/prefer-default-export": "off"
+  }
+}
