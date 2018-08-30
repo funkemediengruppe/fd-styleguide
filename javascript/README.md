@@ -1,6 +1,6 @@
 # Funke Digital JavaScript Style Guide() {
 
-*Based on the Airbnb JavScript Style Guide*
+The following rules are based on the Airbnb JavScript Style Guide, but tweaked a little bit for the likings or Funke Digital.
 
 ## Table of Contents
 
