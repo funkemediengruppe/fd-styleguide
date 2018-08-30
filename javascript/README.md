@@ -1,4 +1,4 @@
-# Funkedigital JavaScript Style Guide() {
+# Funke Digital JavaScript Style Guide() {
 
 *Based on the Airbnb JavScript Style Guide*
 

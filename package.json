@@ -13,10 +13,13 @@
     "javascript",
     "ecmascript",
     "styleguide",
-    "funke",
-    "digital"
+    "funke digital"
   ],
   "author": "Gregor Sondermeier <gregor.sondermeier.github@googlemail.com> (https://github.com/GregorSondermeier/)",
+  "contributors": [
+    "Gregor Sondermeier <g.sondermeier@funkedigital.de> (https://www.funkedigital.de)",
+    "Funke Digital <technical-accounts@funkedigital.de> (https://www.funkedigital.de)"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/funkedigital/fd-styleguide/issues"
