@@ -25,6 +25,7 @@
     "space-before-function-paren": 0,
     "brace-style": ["error", "1tbs"],
     "import/prefer-default-export": "off",
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "no-trailing-spaces": ["error", {"skipBlankLines": true, "ignoreComments": true}]
   }
 }
