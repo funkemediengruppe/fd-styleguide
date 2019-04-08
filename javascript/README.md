@@ -2418,7 +2418,7 @@ The following rules are based on the Airbnb JavScript Style Guide, but tweaked a
     ```
 
   <a name="commas--dangling"></a><a name="19.2"></a>
-  - [20.2](#commas--dangling) Additional trailing comma: **Yup.** eslint: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle.html) jscs: [`requireTrailingComma`](http://jscs.info/rule/requireTrailingComma)
+  - [20.2](#commas--dangling) Additional trailing comma: **Yup.** Except in functions. eslint: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle.html) jscs: [`requireTrailingComma`](http://jscs.info/rule/requireTrailingComma)
 
     > Why? This leads to cleaner git diffs. Also, transpilers like Babel will remove the additional trailing comma in the transpiled code which means you don’t have to worry about the [trailing comma problem](https://github.com/airbnb/javascript/blob/es5-deprecated/es5/README.md#commas) in legacy browsers.
 
@@ -2466,7 +2466,7 @@ The following rules are based on the Airbnb JavScript Style Guide, but tweaked a
     function createHero(
       firstName,
       lastName,
-      inventorOf
+      inventorOf,
     ) {
       // does nothing
     }
@@ -2475,42 +2475,30 @@ The following rules are based on the Airbnb JavScript Style Guide, but tweaked a
     function createHero(
       firstName,
       lastName,
-      inventorOf,
-    ) {
-      // does nothing
-    }
-
-    // good (note that a comma must not appear after a "rest" element)
-    function createHero(
-      firstName,
-      lastName,
-      inventorOf,
-      ...heroArgs
+      inventorOf
     ) {
       // does nothing
     }
 
     // bad
-    createHero(
-      firstName,
-      lastName,
-      inventorOf
-    );
-
-    // good
-    createHero(
+    function createHero(
       firstName,
       lastName,
       inventorOf,
-    );
+      ...heroArgs,
+    ) {
+      // does nothing
+    }
 
-    // good (note that a comma must not appear after a "rest" element)
-    createHero(
+    // good
+    function createHero(
       firstName,
       lastName,
       inventorOf,
       ...heroArgs
-    );
+    ) {
+      // does nothing
+    }
     ```
 
 **[⬆ back to top](#table-of-contents)**
